@@ -270,9 +270,13 @@ def main():
                     )
 
     st.sidebar.markdown("---")
-    st.sidebar.write(
-        "Built with ❤️ using Streamlit + LangChain + Gemini + Chroma"
-    )
+    st.sidebar.markdown(
+    """
+    ### Created by Reddaiah
+
+    Built with ❤️ using Streamlit, LangChain, Gemini, and ChromaDB.
+    """
+)
 
 
 if __name__ == "__main__":
